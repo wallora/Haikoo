@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"Haikoo::HaikooPackageTests::ProductTarget" /* HaikooPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_31 /* Build configuration list for PBXAggregateTarget "HaikooPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_34 /* PBXTargetDependency */,
+			);
+			name = HaikooPackageTests;
+			productName = HaikooPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0607A3022362F44300F95EFE /* Haikoo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0607A2F42362F44300F95EFE /* Haikoo.swift */; };
+		0607A3032362F44300F95EFE /* FileMessenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0607A2F62362F44300F95EFE /* FileMessenger.swift */; };
+		0607A3042362F44300F95EFE /* OSLogMessenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0607A2F72362F44300F95EFE /* OSLogMessenger.swift */; };
+		0607A3052362F44300F95EFE /* ConsoleMessenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0607A2F82362F44300F95EFE /* ConsoleMessenger.swift */; };
+		0607A3062362F44300F95EFE /* LogMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0607A2F92362F44300F95EFE /* LogMessage.swift */; };
+		0607A3072362F44300F95EFE /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0607A2FA2362F44300F95EFE /* LogLevel.swift */; };
+		0607A3082362F44300F95EFE /* LogMessenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0607A2FB2362F44300F95EFE /* LogMessenger.swift */; };
+		0607A3092362F44300F95EFE /* LogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0607A2FC2362F44300F95EFE /* LogFormatter.swift */; };
+		0607A30A2362F44300F95EFE /* CompleteFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0607A2FE2362F44300F95EFE /* CompleteFormatter.swift */; };
+		0607A30B2362F44300F95EFE /* SymbolsFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0607A2FF2362F44300F95EFE /* SymbolsFormatter.swift */; };
+		0607A30C2362F44300F95EFE /* FunctionFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0607A3002362F44300F95EFE /* FunctionFormatter.swift */; };
+		0607A30D2362F44300F95EFE /* TimestampFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0607A3012362F44300F95EFE /* TimestampFormatter.swift */; };
+		0607A31A2362F4F200F95EFE /* HaikooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0607A3112362F4D600F95EFE /* HaikooTests.swift */; };
+		0607A31B2362F4F200F95EFE /* LogFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0607A30E2362F4D600F95EFE /* LogFormatterTests.swift */; };
+		0607A31C2362F4F200F95EFE /* LogLevelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0607A3122362F4D600F95EFE /* LogLevelTests.swift */; };
+		0607A31D2362F4F200F95EFE /* LogMessageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0607A3132362F4D600F95EFE /* LogMessageTests.swift */; };
+		0607A31E2362F4F200F95EFE /* LogMessengerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0607A30F2362F4D600F95EFE /* LogMessengerTests.swift */; };
+		OBJ_29 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_43 /* Haikoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Haikoo::Haikoo::Product" /* Haikoo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0607A2D72362F3DB00F95EFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Haikoo::Haikoo";
+			remoteInfo = Haikoo;
+		};
+		0607A2D82362F3DD00F95EFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Haikoo::HaikooTests";
+			remoteInfo = HaikooTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0607A2F42362F44300F95EFE /* Haikoo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Haikoo.swift; sourceTree = "<group>"; };
+		0607A2F62362F44300F95EFE /* FileMessenger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileMessenger.swift; sourceTree = "<group>"; };
+		0607A2F72362F44300F95EFE /* OSLogMessenger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSLogMessenger.swift; sourceTree = "<group>"; };
+		0607A2F82362F44300F95EFE /* ConsoleMessenger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleMessenger.swift; sourceTree = "<group>"; };
+		0607A2F92362F44300F95EFE /* LogMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogMessage.swift; sourceTree = "<group>"; };
+		0607A2FA2362F44300F95EFE /* LogLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogLevel.swift; sourceTree = "<group>"; };
+		0607A2FB2362F44300F95EFE /* LogMessenger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogMessenger.swift; sourceTree = "<group>"; };
+		0607A2FC2362F44300F95EFE /* LogFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogFormatter.swift; sourceTree = "<group>"; };
+		0607A2FE2362F44300F95EFE /* CompleteFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteFormatter.swift; sourceTree = "<group>"; };
+		0607A2FF2362F44300F95EFE /* SymbolsFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymbolsFormatter.swift; sourceTree = "<group>"; };
+		0607A3002362F44300F95EFE /* FunctionFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionFormatter.swift; sourceTree = "<group>"; };
+		0607A3012362F44300F95EFE /* TimestampFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimestampFormatter.swift; sourceTree = "<group>"; };
+		0607A30E2362F4D600F95EFE /* LogFormatterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogFormatterTests.swift; sourceTree = "<group>"; };
+		0607A30F2362F4D600F95EFE /* LogMessengerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogMessengerTests.swift; sourceTree = "<group>"; };
+		0607A3112362F4D600F95EFE /* HaikooTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaikooTests.swift; sourceTree = "<group>"; };
+		0607A3122362F4D600F95EFE /* LogLevelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogLevelTests.swift; sourceTree = "<group>"; };
+		0607A3132362F4D600F95EFE /* LogMessageTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogMessageTests.swift; sourceTree = "<group>"; };
+		0607A3202362F65900F95EFE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0607A3212362F78600F95EFE /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		"Haikoo::Haikoo::Product" /* Haikoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Haikoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Haikoo::HaikooTests::Product" /* HaikooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = HaikooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_43 /* Haikoo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0607A2F52362F44300F95EFE /* Messengers */ = {
+			isa = PBXGroup;
+			children = (
+				0607A2F62362F44300F95EFE /* FileMessenger.swift */,
+				0607A2F72362F44300F95EFE /* OSLogMessenger.swift */,
+				0607A2F82362F44300F95EFE /* ConsoleMessenger.swift */,
+			);
+			path = Messengers;
+			sourceTree = "<group>";
+		};
+		0607A2FD2362F44300F95EFE /* Formatters */ = {
+			isa = PBXGroup;
+			children = (
+				0607A2FE2362F44300F95EFE /* CompleteFormatter.swift */,
+				0607A2FF2362F44300F95EFE /* SymbolsFormatter.swift */,
+				0607A3002362F44300F95EFE /* FunctionFormatter.swift */,
+				0607A3012362F44300F95EFE /* TimestampFormatter.swift */,
+			);
+			path = Formatters;
+			sourceTree = "<group>";
+		};
+		OBJ_10 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* HaikooTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_11 /* HaikooTests */ = {
+			isa = PBXGroup;
+			children = (
+				0607A3112362F4D600F95EFE /* HaikooTests.swift */,
+				0607A30E2362F4D600F95EFE /* LogFormatterTests.swift */,
+				0607A3122362F4D600F95EFE /* LogLevelTests.swift */,
+				0607A3132362F4D600F95EFE /* LogMessageTests.swift */,
+				0607A30F2362F4D600F95EFE /* LogMessengerTests.swift */,
+			);
+			name = HaikooTests;
+			path = Tests/HaikooTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"Haikoo::HaikooTests::Product" /* HaikooTests.xctest */,
+				"Haikoo::Haikoo::Product" /* Haikoo.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 = {
+			isa = PBXGroup;
+			children = (
+				0607A3212362F78600F95EFE /* LICENSE */,
+				0607A3202362F65900F95EFE /* README.md */,
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_10 /* Tests */,
+				OBJ_14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* Haikoo */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* Haikoo */ = {
+			isa = PBXGroup;
+			children = (
+				0607A2F42362F44300F95EFE /* Haikoo.swift */,
+				0607A2FC2362F44300F95EFE /* LogFormatter.swift */,
+				0607A2FA2362F44300F95EFE /* LogLevel.swift */,
+				0607A2F92362F44300F95EFE /* LogMessage.swift */,
+				0607A2FB2362F44300F95EFE /* LogMessenger.swift */,
+				0607A2FD2362F44300F95EFE /* Formatters */,
+				0607A2F52362F44300F95EFE /* Messengers */,
+			);
+			name = Haikoo;
+			path = Sources/Haikoo;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"Haikoo::Haikoo" /* Haikoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_18 /* Build configuration list for PBXNativeTarget "Haikoo" */;
+			buildPhases = (
+				OBJ_21 /* Sources */,
+				OBJ_23 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Haikoo;
+			productName = Haikoo;
+			productReference = "Haikoo::Haikoo::Product" /* Haikoo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Haikoo::HaikooTests" /* HaikooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_36 /* Build configuration list for PBXNativeTarget "HaikooTests" */;
+			buildPhases = (
+				OBJ_39 /* Sources */,
+				OBJ_42 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_44 /* PBXTargetDependency */,
+			);
+			name = HaikooTests;
+			productName = HaikooTests;
+			productReference = "Haikoo::HaikooTests::Product" /* HaikooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"Haikoo::SwiftPMPackageDescription" /* HaikooPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_25 /* Build configuration list for PBXNativeTarget "HaikooPackageDescription" */;
+			buildPhases = (
+				OBJ_28 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HaikooPackageDescription;
+			productName = HaikooPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+					"Haikoo::Haikoo" = {
+						LastSwiftMigration = 1110;
+					};
+				};
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Haikoo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"Haikoo::Haikoo" /* Haikoo */,
+				"Haikoo::SwiftPMPackageDescription" /* HaikooPackageDescription */,
+				"Haikoo::HaikooPackageTests::ProductTarget" /* HaikooPackageTests */,
+				"Haikoo::HaikooTests" /* HaikooTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				0607A30B2362F44300F95EFE /* SymbolsFormatter.swift in Sources */,
+				0607A3042362F44300F95EFE /* OSLogMessenger.swift in Sources */,
+				0607A3072362F44300F95EFE /* LogLevel.swift in Sources */,
+				0607A30D2362F44300F95EFE /* TimestampFormatter.swift in Sources */,
+				0607A30A2362F44300F95EFE /* CompleteFormatter.swift in Sources */,
+				0607A3082362F44300F95EFE /* LogMessenger.swift in Sources */,
+				0607A3092362F44300F95EFE /* LogFormatter.swift in Sources */,
+				0607A30C2362F44300F95EFE /* FunctionFormatter.swift in Sources */,
+				0607A3052362F44300F95EFE /* ConsoleMessenger.swift in Sources */,
+				0607A3022362F44300F95EFE /* Haikoo.swift in Sources */,
+				0607A3062362F44300F95EFE /* LogMessage.swift in Sources */,
+				0607A3032362F44300F95EFE /* FileMessenger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_29 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				0607A31A2362F4F200F95EFE /* HaikooTests.swift in Sources */,
+				0607A31E2362F4F200F95EFE /* LogMessengerTests.swift in Sources */,
+				0607A31B2362F4F200F95EFE /* LogFormatterTests.swift in Sources */,
+				0607A31D2362F4F200F95EFE /* LogMessageTests.swift in Sources */,
+				0607A31C2362F4F200F95EFE /* LogLevelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Haikoo::HaikooTests" /* HaikooTests */;
+			targetProxy = 0607A2D82362F3DD00F95EFE /* PBXContainerItemProxy */;
+		};
+		OBJ_44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Haikoo::Haikoo" /* Haikoo */;
+			targetProxy = 0607A2D72362F3DB00F95EFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Haikoo.xcodeproj/Haikoo_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Haikoo;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = Haikoo;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Haikoo.xcodeproj/Haikoo_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Haikoo;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = Haikoo;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		OBJ_33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		OBJ_37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Haikoo.xcodeproj/HaikooTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = HaikooTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Haikoo.xcodeproj/HaikooTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = HaikooTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_18 /* Build configuration list for PBXNativeTarget "Haikoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_19 /* Debug */,
+				OBJ_20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "Haikoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_25 /* Build configuration list for PBXNativeTarget "HaikooPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_26 /* Debug */,
+				OBJ_27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_31 /* Build configuration list for PBXAggregateTarget "HaikooPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_32 /* Debug */,
+				OBJ_33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_36 /* Build configuration list for PBXNativeTarget "HaikooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_37 /* Debug */,
+				OBJ_38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}

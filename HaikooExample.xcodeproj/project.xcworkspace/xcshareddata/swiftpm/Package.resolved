@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Haikoo",
+        "repositoryURL": "https://github.com/wallora/Haikoo",
+        "state": {
+          "branch": null,
+          "revision": "c4899af8a2602840676b702930eaef950e12298a",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

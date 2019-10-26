@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		0607A3382362F8B400F95EFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0607A3372362F8B400F95EFE /* Preview Assets.xcassets */; };
 		0607A33B2362F8B400F95EFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0607A3392362F8B400F95EFE /* LaunchScreen.storyboard */; };
 		0607A3462362FA0700F95EFE /* colossal_log.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0607A3452362FA0600F95EFE /* colossal_log.txt */; };
+		0607A3492364B74500F95EFE /* Haikoo in Frameworks */ = {isa = PBXBuildFile; productRef = 0607A3482364B74500F95EFE /* Haikoo */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0607A3492364B74500F95EFE /* Haikoo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +97,7 @@
 			);
 			name = HaikooExample;
 			packageProductDependencies = (
+				0607A3482364B74500F95EFE /* Haikoo */,
 			);
 			productName = HaikooExample;
 			productReference = 0607A32B2362F8B300F95EFE /* HaikooExample.app */;
@@ -125,6 +128,7 @@
 			);
 			mainGroup = 0607A3222362F8B300F95EFE;
 			packageReferences = (
+				0607A3472364B74500F95EFE /* XCRemoteSwiftPackageReference "Haikoo" */,
 			);
 			productRefGroup = 0607A32C2362F8B300F95EFE /* Products */;
 			projectDirPath = "";
@@ -350,6 +354,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0607A3472364B74500F95EFE /* XCRemoteSwiftPackageReference "Haikoo" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wallora/Haikoo";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0607A3482364B74500F95EFE /* Haikoo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0607A3472364B74500F95EFE /* XCRemoteSwiftPackageReference "Haikoo" */;
+			productName = Haikoo;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0607A3232362F8B300F95EFE /* Project object */;
 }
